@@ -5,16 +5,18 @@
 1.  Create a mamba env with python=3.10.\* and ipython
 2.  Within the main work folder create a virtual env
 
-````
+```python
 					python -m venv .venv
 					source .venv/bin/activate
 					python -m pip install --upgrade pip
-				```
+```
+
 3. Install packages
-````
+
+```python
 
     		python -m pip install pygame numpy PyOpenGL PyOpenGL_accelerate
-    		```
+```
 
 ### Git
 
