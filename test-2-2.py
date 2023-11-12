@@ -9,6 +9,7 @@ class Test(Base):
     def initialize(self):
         print("Initializing Program")
 
+        OpenGLUtils.printSystemInfo()
         ### Initializing program ###
 
         ## Vertex shader code ##
@@ -17,7 +18,7 @@ class Test(Base):
         
         void main()
         {
-            gl_Position = vec4(1.0,1.0,1.0,1.0);
+            gl_Position = vec4(1,1,1,1);
         }
         
         
@@ -29,7 +30,7 @@ class Test(Base):
         
         void main(){
             
-            fragColor = vec4(1.0,0.0,0.0,1.0);
+            fragColor = vec4(1,0,0,1);
         }
         
         
